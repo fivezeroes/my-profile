@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "This is a silly script" > /tmp/silly.txt
-sudo apt-get update
-sudo apt-get install apache2
+echo "This is a setup script" > /tmp/silly.txt
+apt-get update
+apt-get install -y apache2
